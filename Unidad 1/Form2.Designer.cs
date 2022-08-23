@@ -30,19 +30,19 @@ namespace Unidad_1
         private void InitializeComponent()
         {
             this.pnlMain2 = new System.Windows.Forms.Panel();
-            this.boxTemperatura = new System.Windows.Forms.GroupBox();
             this.boxEspacios = new System.Windows.Forms.GroupBox();
-            this.lblTemperatura = new System.Windows.Forms.Label();
-            this.txtTemperatura = new System.Windows.Forms.TextBox();
-            this.btnTemperatura = new System.Windows.Forms.Button();
-            this.txtTemperaturaResult = new System.Windows.Forms.TextBox();
-            this.lblEspacios = new System.Windows.Forms.Label();
-            this.txtEspacios = new System.Windows.Forms.TextBox();
-            this.btnEspacios = new System.Windows.Forms.Button();
             this.txtEspaciosResult = new System.Windows.Forms.TextBox();
+            this.btnEspacios = new System.Windows.Forms.Button();
+            this.txtEspacios = new System.Windows.Forms.TextBox();
+            this.lblEspacios = new System.Windows.Forms.Label();
+            this.boxTemperatura = new System.Windows.Forms.GroupBox();
+            this.txtTemperaturaResult = new System.Windows.Forms.TextBox();
+            this.btnTemperatura = new System.Windows.Forms.Button();
+            this.txtTemperatura = new System.Windows.Forms.TextBox();
+            this.lblTemperatura = new System.Windows.Forms.Label();
             this.pnlMain2.SuspendLayout();
-            this.boxTemperatura.SuspendLayout();
             this.boxEspacios.SuspendLayout();
+            this.boxTemperatura.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlMain2
@@ -53,21 +53,6 @@ namespace Unidad_1
             this.pnlMain2.Name = "pnlMain2";
             this.pnlMain2.Size = new System.Drawing.Size(776, 426);
             this.pnlMain2.TabIndex = 0;
-            // 
-            // boxTemperatura
-            // 
-            this.boxTemperatura.BackColor = System.Drawing.SystemColors.Control;
-            this.boxTemperatura.Controls.Add(this.txtTemperaturaResult);
-            this.boxTemperatura.Controls.Add(this.btnTemperatura);
-            this.boxTemperatura.Controls.Add(this.txtTemperatura);
-            this.boxTemperatura.Controls.Add(this.lblTemperatura);
-            this.boxTemperatura.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boxTemperatura.Location = new System.Drawing.Point(3, 3);
-            this.boxTemperatura.Name = "boxTemperatura";
-            this.boxTemperatura.Size = new System.Drawing.Size(381, 420);
-            this.boxTemperatura.TabIndex = 0;
-            this.boxTemperatura.TabStop = false;
-            this.boxTemperatura.Text = "Conversión de Temperatura";
             // 
             // boxEspacios
             // 
@@ -82,70 +67,16 @@ namespace Unidad_1
             this.boxEspacios.TabStop = false;
             this.boxEspacios.Text = "Contador de espacios";
             // 
-            // lblTemperatura
+            // txtEspaciosResult
             // 
-            this.lblTemperatura.AutoSize = true;
-            this.lblTemperatura.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTemperatura.Location = new System.Drawing.Point(4, 32);
-            this.lblTemperatura.Name = "lblTemperatura";
-            this.lblTemperatura.Size = new System.Drawing.Size(303, 25);
-            this.lblTemperatura.TabIndex = 0;
-            this.lblTemperatura.Text = "Ingrese una temperatura en °C";
-            // 
-            // txtTemperatura
-            // 
-            this.txtTemperatura.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTemperatura.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTemperatura.Location = new System.Drawing.Point(9, 70);
-            this.txtTemperatura.Name = "txtTemperatura";
-            this.txtTemperatura.Size = new System.Drawing.Size(217, 27);
-            this.txtTemperatura.TabIndex = 1;
-            // 
-            // btnTemperatura
-            // 
-            this.btnTemperatura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.btnTemperatura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTemperatura.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTemperatura.Location = new System.Drawing.Point(9, 103);
-            this.btnTemperatura.Name = "btnTemperatura";
-            this.btnTemperatura.Size = new System.Drawing.Size(87, 29);
-            this.btnTemperatura.TabIndex = 2;
-            this.btnTemperatura.Text = "Convertir";
-            this.btnTemperatura.UseVisualStyleBackColor = false;
-            this.btnTemperatura.Click += new System.EventHandler(this.btnTemperatura_Click);
-            this.btnTemperatura.MouseEnter += new System.EventHandler(this.btnTemperatura_MouseEnter);
-            this.btnTemperatura.MouseLeave += new System.EventHandler(this.btnTemperatura_MouseLeave);
-            // 
-            // txtTemperaturaResult
-            // 
-            this.txtTemperaturaResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtTemperaturaResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTemperaturaResult.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTemperaturaResult.Location = new System.Drawing.Point(9, 138);
-            this.txtTemperaturaResult.Name = "txtTemperaturaResult";
-            this.txtTemperaturaResult.ReadOnly = true;
-            this.txtTemperaturaResult.Size = new System.Drawing.Size(217, 27);
-            this.txtTemperaturaResult.TabIndex = 3;
-            // 
-            // lblEspacios
-            // 
-            this.lblEspacios.AutoSize = true;
-            this.lblEspacios.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEspacios.Location = new System.Drawing.Point(6, 32);
-            this.lblEspacios.Name = "lblEspacios";
-            this.lblEspacios.Size = new System.Drawing.Size(159, 25);
-            this.lblEspacios.TabIndex = 4;
-            this.lblEspacios.Text = "Ingrese el texto";
-            // 
-            // txtEspacios
-            // 
-            this.txtEspacios.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtEspacios.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEspacios.Location = new System.Drawing.Point(11, 70);
-            this.txtEspacios.Multiline = true;
-            this.txtEspacios.Name = "txtEspacios";
-            this.txtEspacios.Size = new System.Drawing.Size(366, 120);
-            this.txtEspacios.TabIndex = 4;
+            this.txtEspaciosResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtEspaciosResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEspaciosResult.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEspaciosResult.Location = new System.Drawing.Point(11, 231);
+            this.txtEspaciosResult.Name = "txtEspaciosResult";
+            this.txtEspaciosResult.ReadOnly = true;
+            this.txtEspaciosResult.Size = new System.Drawing.Size(287, 27);
+            this.txtEspaciosResult.TabIndex = 4;
             // 
             // btnEspacios
             // 
@@ -162,16 +93,85 @@ namespace Unidad_1
             this.btnEspacios.MouseEnter += new System.EventHandler(this.btnEspacios_MouseEnter);
             this.btnEspacios.MouseLeave += new System.EventHandler(this.btnEspacios_MouseLeave);
             // 
-            // txtEspaciosResult
+            // txtEspacios
             // 
-            this.txtEspaciosResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.txtEspaciosResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtEspaciosResult.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEspaciosResult.Location = new System.Drawing.Point(11, 231);
-            this.txtEspaciosResult.Name = "txtEspaciosResult";
-            this.txtEspaciosResult.ReadOnly = true;
-            this.txtEspaciosResult.Size = new System.Drawing.Size(287, 27);
-            this.txtEspaciosResult.TabIndex = 4;
+            this.txtEspacios.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtEspacios.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEspacios.Location = new System.Drawing.Point(11, 70);
+            this.txtEspacios.Multiline = true;
+            this.txtEspacios.Name = "txtEspacios";
+            this.txtEspacios.Size = new System.Drawing.Size(366, 120);
+            this.txtEspacios.TabIndex = 4;
+            // 
+            // lblEspacios
+            // 
+            this.lblEspacios.AutoSize = true;
+            this.lblEspacios.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEspacios.Location = new System.Drawing.Point(6, 32);
+            this.lblEspacios.Name = "lblEspacios";
+            this.lblEspacios.Size = new System.Drawing.Size(159, 25);
+            this.lblEspacios.TabIndex = 4;
+            this.lblEspacios.Text = "Ingrese el texto";
+            // 
+            // boxTemperatura
+            // 
+            this.boxTemperatura.BackColor = System.Drawing.SystemColors.Control;
+            this.boxTemperatura.Controls.Add(this.txtTemperaturaResult);
+            this.boxTemperatura.Controls.Add(this.btnTemperatura);
+            this.boxTemperatura.Controls.Add(this.txtTemperatura);
+            this.boxTemperatura.Controls.Add(this.lblTemperatura);
+            this.boxTemperatura.Font = new System.Drawing.Font("Bahnschrift", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.boxTemperatura.Location = new System.Drawing.Point(3, 3);
+            this.boxTemperatura.Name = "boxTemperatura";
+            this.boxTemperatura.Size = new System.Drawing.Size(381, 420);
+            this.boxTemperatura.TabIndex = 0;
+            this.boxTemperatura.TabStop = false;
+            this.boxTemperatura.Text = "Conversión de Temperatura";
+            // 
+            // txtTemperaturaResult
+            // 
+            this.txtTemperaturaResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txtTemperaturaResult.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTemperaturaResult.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTemperaturaResult.Location = new System.Drawing.Point(9, 138);
+            this.txtTemperaturaResult.Name = "txtTemperaturaResult";
+            this.txtTemperaturaResult.ReadOnly = true;
+            this.txtTemperaturaResult.Size = new System.Drawing.Size(217, 27);
+            this.txtTemperaturaResult.TabIndex = 3;
+            // 
+            // btnTemperatura
+            // 
+            this.btnTemperatura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnTemperatura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTemperatura.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTemperatura.Location = new System.Drawing.Point(9, 103);
+            this.btnTemperatura.Name = "btnTemperatura";
+            this.btnTemperatura.Size = new System.Drawing.Size(87, 29);
+            this.btnTemperatura.TabIndex = 2;
+            this.btnTemperatura.Text = "Convertir";
+            this.btnTemperatura.UseVisualStyleBackColor = false;
+            this.btnTemperatura.Click += new System.EventHandler(this.btnTemperatura_Click);
+            this.btnTemperatura.MouseEnter += new System.EventHandler(this.btnTemperatura_MouseEnter);
+            this.btnTemperatura.MouseLeave += new System.EventHandler(this.btnTemperatura_MouseLeave);
+            // 
+            // txtTemperatura
+            // 
+            this.txtTemperatura.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtTemperatura.Font = new System.Drawing.Font("Bahnschrift", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTemperatura.Location = new System.Drawing.Point(9, 70);
+            this.txtTemperatura.Name = "txtTemperatura";
+            this.txtTemperatura.Size = new System.Drawing.Size(217, 27);
+            this.txtTemperatura.TabIndex = 1;
+            // 
+            // lblTemperatura
+            // 
+            this.lblTemperatura.AutoSize = true;
+            this.lblTemperatura.Font = new System.Drawing.Font("Bahnschrift", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTemperatura.Location = new System.Drawing.Point(4, 32);
+            this.lblTemperatura.Name = "lblTemperatura";
+            this.lblTemperatura.Size = new System.Drawing.Size(303, 25);
+            this.lblTemperatura.TabIndex = 0;
+            this.lblTemperatura.Text = "Ingrese una temperatura en °C";
             // 
             // Form2
             // 
@@ -182,10 +182,10 @@ namespace Unidad_1
             this.Name = "Form2";
             this.Text = "Form2";
             this.pnlMain2.ResumeLayout(false);
-            this.boxTemperatura.ResumeLayout(false);
-            this.boxTemperatura.PerformLayout();
             this.boxEspacios.ResumeLayout(false);
             this.boxEspacios.PerformLayout();
+            this.boxTemperatura.ResumeLayout(false);
+            this.boxTemperatura.PerformLayout();
             this.ResumeLayout(false);
 
         }

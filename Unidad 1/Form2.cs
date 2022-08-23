@@ -71,5 +71,6 @@ namespace Unidad_1
         {
             btnLeave(btnEspacios);
         }
+
     }
 }
